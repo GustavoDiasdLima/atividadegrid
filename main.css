@@ -1,0 +1,147 @@
+
+header{
+    background-image: linear-gradient(to left,#7292A6, #224459 );
+    color: white;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 29px;
+    padding: 18px;
+
+}
+
+main{
+    display: grid;
+    grid-template-areas: 
+    "BarraAzul Lermais Programacao Programacao Amanda"
+    "BarraAzul Lista1 Inscricao Natalia Henrique"
+    "BarraAzul Larissa Inscricao Organizacao Organizacao"
+    
+    ;
+}
+section{
+    border: 1px solid whitesmoke;
+    padding: 2em;
+     background: lightgray;
+     margin: 1em;
+}
+section.a{
+    grid-area: BarraAzul;
+    background-color: lightblue;
+    font-family: 'Roboto Mono', monospace;
+    height: 100rem; 
+}
+.a nav{
+    display: flex;
+    flex-direction: column;
+    gap:160px;
+}
+.a nav a {
+    font-size: 65px;
+    color: rgb(37, 90, 139);
+    text-decoration: none;
+}
+section.b{
+    grid-area: Lermais;
+    font-family: 'Roboto Mono', monospace;
+    max-width: 25rem;
+    font-size: 30px;
+}
+.b2 p{
+
+}
+section.c{
+    grid-area: Lista1;
+    font-family: 'Roboto Mono', monospace;
+    max-width: 25rem;
+    font-size: 30px;
+}
+section.d{
+    grid-area: Larissa;
+    padding: 0.2em;
+    max-width: 30rem;
+}
+section.e{
+    grid-area: Programacao;
+    font-family: 'Roboto Mono', monospace;
+}
+.e h2{
+    font-size: 50px;
+}
+
+
+section.f{
+    grid-area: Inscricao;
+    font-family: 'Roboto Mono', monospace;
+    width: 40rem;
+}
+}
+
+    form {
+      width: 300px;
+      margin: 50px auto;
+      padding: 20px;
+      border: 1px solid #ccc; /* borda cinza */
+      background-color: #fff;  /* fundo branco */
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.05);
+    }
+
+    label {
+      display: block;
+      margin-bottom: 5px;
+      font-weight: bold;
+    }
+
+    input[type="text"],
+    input[type="email"],
+    input[type="password"] {
+      width: 100%;
+      padding: 30px;
+      margin-bottom: 15px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      box-sizing: border-box;
+    }
+
+    input[type="submit"] {
+      width: 20%;
+      padding: 10px;
+      background-color: #000;  /* fundo preto */
+      color: #ccc;             /* texto cinza */
+      border: none;
+      border-radius: 4px;
+    }
+
+    input[type="submit"]:hover {
+      background-color: #333;
+    }
+.f h2{
+    font-size: 50px;
+}
+span{
+    color: blue;
+}
+section.g{
+    grid-area: Natalia;
+}
+section.h{
+    grid-area: Organizacao;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 30px;
+}
+.h h2{
+    font-size: 50px;
+}
+section.i{
+    grid-area: Amanda;
+}
+section.j{
+    grid-area: Henrique;
+}
+footer{
+    background-image: linear-gradient(to left,#7292A6, #224459 );
+    color: white;
+    font-family: 'Roboto Mono', monospace;
+    padding: 110px;
+    text-align: center;
+    font-size: 30px;
+}
